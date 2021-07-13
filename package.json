@@ -1,0 +1,35 @@
+{
+  "name": "project-covid",
+  "version": "1.0.0",
+  "description": "Made with efforts",
+  "main": "app.js",
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.21.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "deep-email-validator": "^0.1.18",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "googleapis": "^81.0.0",
+    "gsap": "^3.7.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.2",
+    "nodemailer": "^6.6.2",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.12",
+    "mongodb": "^3.6.10",
+    "path": "^0.12.7",
+    "react-toastify": "^7.0.4",
+    "scss": "^0.2.4",
+    "toastify-js": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhinav Singh Kushwah",
+  "license": "ISC"
+}
