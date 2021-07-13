@@ -7,7 +7,10 @@ const path = require("path");
 const { MailList } = require("./model");
 const axios = require("axios");
 const moment = require("moment");
-const port = process.env.port || 3000;
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
 
 const date = moment().format("DD-MM-YYYY");
 
