@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-const DATABASE_NAME = "Mails";
-const PASSWORD = "Admin";
+const DATABASE_NAME = "";
+const PASSWORD = "";
 
 mongoose
   .connect(
